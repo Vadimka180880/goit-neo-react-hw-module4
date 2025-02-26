@@ -1,0 +1,23 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
